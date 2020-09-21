@@ -10,3 +10,7 @@ A célunk, hogy a mi múzeumonknak legyen egy olyan honlapja, ahol az alapvető 
 ## 6. Használati esetek
 
 Két felhasználói szerepkör atrtozik az oldalhoz: user és admin. A user bejelentkezhet, értékelheti 1-től 5-ig terjedő pontozással az egyes kategóriákban a kiállítási tárgyakat, és írhat megjegyzést az online vendégkönyvbe. Az adminok töltik fel és frissítik a kiállítási tárgyak adatait, és ellenőrzik a vendégkönyv bejegyzéseit, törölhetik, módosthatják azokat, szükség esetén letilthatják a felhasználót.
+
+## 9.Forgatókönyv
+
+A Weboldal meglátogatásakor először is a Home Page jelenik meg amelyik a kiállítások időpontjait, látogatási határidejét,a múzeum jegy árát  és figyelem felkeltő képeket tartalmaz.Ezután a felhasználó kiválaszthat egy általa kiválasztott kiállítást majd a lenyíló lista segítségével kiválaszthatja hogy melyik kiállítási tárgyról akar bővebb információkat megtudni.Innen van lehetősége a felhasználónak hogy újabb és újabb kiállítási tárgyakat nézhessen meg vagy esetleg visszatérjen a Home page-re hogy még egyszer megbizonyosodhasson a Múzeum elhelyezkedéséről vagy egyéb információkat tudhasson meg esetleg felvegye az ügyfél szolgálattal a kapcsolatot.
