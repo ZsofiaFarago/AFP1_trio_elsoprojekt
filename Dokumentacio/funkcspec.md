@@ -11,11 +11,11 @@ A célunk, hogy a mi múzeumonknak legyen egy olyan honlapja, ahol az alapvető 
 
 Két felhasználói szerepkör atrtozik az oldalhoz: user és admin. A user bejelentkezhet, értékelheti 1-től 5-ig terjedő pontozással az egyes kategóriákban a kiállítási tárgyakat, és írhat megjegyzést az online vendégkönyvbe. Az adminok töltik fel és frissítik a kiállítási tárgyak adatait, és ellenőrzik a vendégkönyv bejegyzéseit, törölhetik, módosthatják azokat, szükség esetén letilthatják a felhasználót.
 
-## 9.Forgatókönyv
+## 9. Forgatókönyv
 
 A Weboldal meglátogatásakor először is a Home Page jelenik meg amelyik a kiállítások időpontjait, látogatási határidejét,a múzeum jegy árát  és figyelem felkeltő képeket tartalmaz.Ezután a felhasználó kiválaszthat egy általa kiválasztott kiállítást majd a lenyíló lista segítségével kiválaszthatja hogy melyik kiállítási tárgyról akar bővebb információkat megtudni.Innen van lehetősége a felhasználónak hogy újabb és újabb kiállítási tárgyakat nézhessen meg vagy esetleg visszatérjen a Home page-re hogy még egyszer megbizonyosodhasson a Múzeum elhelyezkedéséről vagy egyéb információkat tudhasson meg esetleg felvegye az ügyfél szolgálattal a kapcsolatot.
 
-## 10.Funkció - követelmény megfeleltetés
+## 10. Funkció - követelmény megfeleltetés
 
 Main Page: A main page feladata hogy amikor megnyomják a múzeum kezdőlapjára dobja vissza a felhasználót.
 Lenyíló lista: A lenyíló lista felhasználásával a felhasználók számára könyebben elérhetőbb és egyszerűbben átlátható kezelhetőségre a
@@ -28,7 +28,7 @@ Kiállítási tárgy neve: Az adott kiállítási tárgyhoz megfelelő nevet mut
 Kiállítási tárgyról leírás: Az adott kiállítási tárgyhoz megfelelő információkat tartalmazza.(Év számok,melyik uralkodóhoz vagy híresebb személyhez kötődik)
 Kiállítási tárgy megtekintési helye: A Múzeum térképével ellátott ábra amely a jelenleg megnyitott kiállítási tárgy a múzeumban megfelelő elhelyezkedési helyét mutatja.
 
-## 11.Fogalomszótár
+## 11. Fogalomszótár
 
 A reszponzív weboldal: A reszponzív weboldal (RWD) egy olyan megközelítéssel tervezett weboldal, amelynek a célja az, hogy optimális megjelenést biztosítson - könnyű olvashatóság, egyszerű navigáció a lehető legkevesebb átméretezéssel és görgetéssel - a legkülönfélébb eszközökön (az asztali számítógép monitorjától egészen a mobiltelefonokig).
 Progressive enhancement: A lényeg az, hogy a szöveges vagy képi tartalmi részekből minden látogató ugyanazt kapja, de mindenkinek úgy tálaljuk azt, ahogy azt a körülmények megengedik. Nevezhetnénk Content First szemléletnek is, mert lényegében arról van szó, hogy minden más weboldalelem a tartalomnak van alárendelve. Ez fontos, hiszen a weboldalak elsősorban információátadás céljából készülnek. A látványos részek háttérbe szorulnak, illetve csak akkor kerülnek képbe, ha az adott eszköz, illetve elérhető internetsebesség mellett a tartalom prezentálása zökkenőmentes.
