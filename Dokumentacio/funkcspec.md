@@ -6,3 +6,7 @@ Manapság már nem újdonság, hogy minden múzeum jelen van az interneten, saj�
 ## 5. Igényelt üzleti folyamatok modellje
 
 A célunk, hogy a mi múzeumonknak legyen egy olyan honlapja, ahol az alapvető információkon kívül jobban megismerkedhetnek a kiállítással, egyfajta betekintést nyerhetnek abba, hogy látogatásukkor mi mindent nézhetnek meg testközelből. Az itt fellelhető tárgyakat külön kategóriákba rendezve (festmények, szobrok, műkincsek, fosszíliák stb.) találják meg. Az oldal színvilága, a képek, az érdekes adatok mind arra ösztönzik majd az olvasókat, hogy ellátogassanak személyesen is intézményünkbe, és még több érdekességet tudhassanak meg ezekről. Az oldal továbbá ezzel közvetlenül és közvetve is kedvet csinál az embereknek a szuvenírek vásárlására az ajándékboltból. Ha minden múzeum közvetlenebbé válna, és jobban bemutatná a szolgáltatásait, a döntésképtelen emberek is könnyebben tudnának választani, melyik intézményt látogassák meg.
+
+## 6. Használati esetek
+
+Két felhasználói szerepkör atrtozik az oldalhoz: user és admin. A user bejelentkezhet, értékelheti 1-től 5-ig terjedő pontozással az egyes kategóriákban a kiállítási tárgyakat, és írhat megjegyzést az online vendégkönyvbe. Az adminok töltik fel és frissítik a kiállítási tárgyak adatait, és ellenőrzik a vendégkönyv bejegyzéseit, törölhetik, módosthatják azokat, szükség esetén letilthatják a felhasználót.
