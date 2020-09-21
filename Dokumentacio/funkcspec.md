@@ -1,0 +1,4 @@
+# Funkcionális specifikáció
+
+## 4. Jelenlegi üzleti folyamatok modellje
+Manapság már nem újdonság, hogy minden múzeum jelen van az interneten, saját honlappal rendelkezik, azonban nem mindenhol mondható el, hogy ezek a honlapok megfelelő mennyiségű és minőségű információt szolgáltatnak az adott intézményben található kiálltásról. Sokan tartanak tőle, hogy ha a tárgyak az interneten is megtekinthetőek, és elérhetőek róluk a legérdekesebb adatok, akkor az embereknek már nem lesz kedvük ellátogatni és megnézni azokat személyesen is, vagy már nem lesz szükségük megvásárolni a róluk szóló kiadványokat, őket ábrázoló képeslapokat az ajándékboltban. Pedig a gyakorlati tapasztalatok ennek az ellenkezőjét mutatják: a honlapon megjelenő, látványos képek és pár érdekes adat minden kiállított tárgyról arra ösztönzi az embereket, hogy ezeket közelebbről is láthassák, és a szuvenírek eladására is kedvezően hat.
