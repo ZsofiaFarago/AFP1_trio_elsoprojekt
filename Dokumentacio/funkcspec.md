@@ -14,3 +14,16 @@ Két felhasználói szerepkör atrtozik az oldalhoz: user és admin. A user beje
 ## 9.Forgatókönyv
 
 A Weboldal meglátogatásakor először is a Home Page jelenik meg amelyik a kiállítások időpontjait, látogatási határidejét,a múzeum jegy árát  és figyelem felkeltő képeket tartalmaz.Ezután a felhasználó kiválaszthat egy általa kiválasztott kiállítást majd a lenyíló lista segítségével kiválaszthatja hogy melyik kiállítási tárgyról akar bővebb információkat megtudni.Innen van lehetősége a felhasználónak hogy újabb és újabb kiállítási tárgyakat nézhessen meg vagy esetleg visszatérjen a Home page-re hogy még egyszer megbizonyosodhasson a Múzeum elhelyezkedéséről vagy egyéb információkat tudhasson meg esetleg felvegye az ügyfél szolgálattal a kapcsolatot.
+
+## 10.Funkció - követelmény megfeleltetés
+
+Main Page: A main page feladata hogy amikor megnyomják a múzeum kezdőlapjára dobja vissza a felhasználót.
+Lenyíló lista: A lenyíló lista felhasználásával a felhasználók számára könyebben elérhetőbb és egyszerűbben átlátható kezelhetőségre a
+múzeum jelenleg kiállítot kiállítási tárgyait sorolja fel amivel a felhasználó megnézheti az adott kiállítási tárgy adatait.
+Következő kiállítás: A felhasználó múzeum következő kiállítási tárgyairól való információ közlésére szolgáló menüpont amit támogat a lenyíló lista.
+Jelenlegi kiállítás: A felhasználó múzeum jelenlegi kiállítási tárgyairól való információ közlésére szolgáló menüpont amit támogat a lenyíló lista.
+A múzeum folytonos kiállítási tárgyai: A felhasználó múzeum folytonos kiállítási tárgyairól való információ közlésére szolgáló menüpont amit támogat a lenyíló lista.
+Kiállítási kép: Az adott kiállítási tárgyhoz megfelelő képet mutatja.
+Kiállítási tárgy neve: Az adott kiállítási tárgyhoz megfelelő nevet mutatja.
+Kiállítási tárgyról leírás: Az adott kiállítási tárgyhoz megfelelő információkat tartalmazza.(Év számok,melyik uralkodóhoz vagy híresebb személyhez kötődik)
+Kiállítási tárgy megtekintési helye: A Múzeum térképével ellátott ábra amely a jelenleg megnyitott kiállítási tárgy a múzeumban megfelelő elhelyezkedési helyét mutatja.
