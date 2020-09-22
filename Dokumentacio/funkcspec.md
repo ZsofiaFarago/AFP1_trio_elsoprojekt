@@ -15,7 +15,7 @@ A célunk, hogy a mi múzeumonknak legyen egy olyan honlapja, ahol az alapvető 
 
 Két felhasználói szerepkör atrtozik az oldalhoz: user és admin. A user bejelentkezhet, értékelheti 1-től 5-ig terjedő pontozással az egyes kategóriákban a kiállítási tárgyakat, és írhat megjegyzést az online vendégkönyvbe. Az adminok töltik fel és frissítik a kiállítási tárgyak adatait, és ellenőrzik a vendégkönyv bejegyzéseit, törölhetik, módosthatják azokat, szükség esetén letilthatják a felhasználót,  továbbá átállíthatják a felhasználók státuszát (admin/user). 3 adminunk lesz, a csapat 3 tagja egyforma jogosultságokkal, újabb admint csak meglévő user státuszának módosításával lehet felvenni. Az újonnan regisztráltak csak user státuszúak lehetnek.
 
-##8. Képernyő tervek
+## 8. Képernyő tervek
 
 https://imgur.com/wHNgvH0
 
