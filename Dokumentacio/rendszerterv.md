@@ -9,8 +9,8 @@ A múzeum honlapján a kiállítás darabjairól megjelenő adatok az adatbázis
 
 **A generalData tábla mezői:**
 - id
-- description: rövid, max. 500 karakteres leírás az adott
-- imageURL
+- description: rövid, max. 500 karakteres leírás az adott kiállítási tárgyról
+- imageURL: a kép elérési útvonala
 
 **A paintings tábla mezői:**
 - id
@@ -26,7 +26,7 @@ A múzeum honlapján a kiállítás darabjairól megjelenő adatok az adatbázis
 - id
 - title: a szobor címe
 - sculptor: a szobrász neve
-- completedTime: a szobor elkésztésének ideje, varchar tpusú, mert lehet olyan festmény, amelyiknél nem tudjuk pontosan, csak a korszakot ismerjük
+- completedTime: a szobor elkészítésének ideje, varchar tpusú, mert lehet olyan festmény, amelyiknél nem tudjuk pontosan, csak a korszakot ismerjük
 - material: a szobor anyaga (bronz, márvány, fa stb.)
 - weight: a szobor súlya kg-ban
 - generalDataId
