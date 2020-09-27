@@ -75,3 +75,8 @@ Mivel jelenleg csak weboldal keszul ezert sem androidos sem IOS es alkalmazas ne
     - Szoveg - es forraskodszerkesztok: Ajnalott Notepad++ vagy Visual Studio Code de mas preferalt platform hasznalata se tiltott.
     - Adatbazis: MySQL Sorkbench
     - Weboldal: HTML + CSS + JavaScript esetlegesen elofordulhat
+
+## Kovetelmenyek / Kovetelmenylista
+A rendszer fejlesztese HTML/CSS valamint esetlegesen JavaScript segitesegevel tortenik
+A weboldal felepitese HTML, a stilusa CSS-sel fog megvalosulni.
+A weboldal hasznalatahoz eleg lesz egy egyszeru bongeszo.
