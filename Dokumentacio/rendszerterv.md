@@ -47,3 +47,17 @@ A múzeum honlapján a kiállítás darabjairól megjelenő adatok az adatbázis
 - originTime: melyik korból származik
 - originPlace: származási helye
 - generalDataId
+
+## Karbantartási terv
+A projektre kiadott fejlesztési idő rövidsége miatt a rendszertervben kitűzött cél egy felhasználói szerepkör nélküli weboldal elkészítése volt, amely minden kiállítási tárgyat megtalálhatóvá tesz rendezett menü segítségével, illetve az elérhetőségekről és a legfontosabb adatokról tájékoztat. A jövőben a honlapnak számos funkcióval kell kiegészülnie, de elsősorban szerepkörökkel. Értelemszerűen ebből kettőre lesz szükség: adminra és felhasználóra. Az adatbázisban szerepelni fog egy előre létrehozott admin, később ez tud több admint felvenni, felhasználók admin státuszúra változtatásával. Az adminok lesznek képesek felhasználókat letiltani és bejegyzéseiket törölni a vendégkönyvől szükség esetén.  
+A jövőben kötelezően megvalósítandó funkciók:  
+- A látogatók regisztrációval felhasználói fiókot hozhatnak létre user szerepkörrel
+- A regisztrált felhasználók online vásárolhatnak belépőjegyet, kedvezményeket vehetnek igénybe
+- A regisztrált felhasználók rendelhetnek az ajándékboltból online
+- Online vendégkönyv a regisztrált felhasználók részére, melyet az adminok moderálnak
+- A kiállítási tárgyakat értékelhetik a felhasználók 1-5 csillaggal tetszésük szerint, minden kategóriából a legnépszerűbb darab megjelenik a főoldalon  
+Tervezett jövőbeni fejlesztések:
+- Android mobilalkalmazás fejlesztése online jegyvásárlás és ajándéktárgyak rendelése céljából
+Technológiai fejlesztések:
+- Szükség lesz az adatbázis-szolgáltatónál nagyobb tárhelyet igényelni az adatbázis számára
+- A további bővítéséhez célszerű valamilyen keretrendszer használatát bevezetni
