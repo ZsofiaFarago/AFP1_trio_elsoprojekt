@@ -18,3 +18,12 @@ Probléma: korlátozott mennyiségben érhetőek el, helyhez és nyitvatartási 
 1.3.1. Minden kiállítási tárgy kategóriákba rendezve kilistázható (festmény, szobor, műkincs, fosszlia) a főmenüből  
 1.3.2. Minden kilistázott tárgy az ő képével és legfontosabb adataival jelenik meg  
 1.3.3. Új tárgy felvitele: adminisztrátori jogosultsággal való belépés => űrlap kitöltése => mentés gomb
+
+## Fogalomszotar
+MySQL - Egy tobbfelhasznalos, SQL-alapu relacios adatbazis-kezelo rendszer.
+SQL - Structured Query Langauge - magyarul: strukturalt lekerdezonyelv - relacios adabaziis-kezelok lekerdezesi nyelve.
+HTML - Hyper Text Makeup Langauge - magyarul: hiperszoveges jelolonyelv - weboldalak keszitesehez kifejlesztett leironyelv.
+CSS - Cascading Style Sheets - magyarul: egymasba agyazott stilusalapok - weboldalak kullemehez kifejlesztett stiluslerio nyelv.
+Front-End - Egy adott rendszer legfelsobb, a felhasznaloval kapcsolatot tarto reteg, amelynek feladata a rendszerbol kijuto adatok megjelentiese, prezentalasa, illetve a bejovo adatok fogadasa.
+Back-End - Egy adott rendszer alsobb retege, aminek feladata a front-end reteg felol erkezo adatok feldolgozasa, valamint a keletkezett eredmenyek front-end szmara torteno visszajuttatasa.
+
