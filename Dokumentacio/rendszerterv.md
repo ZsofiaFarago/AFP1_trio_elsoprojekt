@@ -67,3 +67,11 @@ A rendszer celja, hogy a muzemban eppen aktulais kiallitasrol barki informaciot 
 A weboldal kinezete egy egyszerusitett, atgondolt es letisztult felulet lesz.
 A rendszer letisztultsaga miatt barki aki minimalisan ert az internethez el tud majd igazodni az oldalon, minden fele gondok nelkul.
 Mivel jelenleg csak weboldal keszul ezert sem androidos sem IOS es alkalmazas nem fog keszulni, de mivel celunk egy egyszeruen attekintheto oldal letrehozasa, ami minimalis eroforrasokat hasznal igy nincs is tervben kulon applkiacio letrehozasa.
+
+## Fizikai kornyezet
+- Az alkamlazas csakis web platfomra keszul.
+- Az weboldal teljesen kezi kodolassal keszul a nullarol
+- Fejlesztoi eszkozok:
+    - Szoveg - es forraskodszerkesztok: Ajnalott Notepad++ vagy Visual Studio Code de mas preferalt platform hasznalata se tiltott.
+    - Adatbazis: MySQL Sorkbench
+    - Weboldal: HTML + CSS + JavaScript esetlegesen elofordulhat
