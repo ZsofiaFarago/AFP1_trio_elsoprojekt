@@ -27,3 +27,8 @@ CSS - Cascading Style Sheets - magyarul: egymasba agyazott stilusalapok - webold
 Front-End - Egy adott rendszer legfelsobb, a felhasznaloval kapcsolatot tarto reteg, amelynek feladata a rendszerbol kijuto adatok megjelentiese, prezentalasa, illetve a bejovo adatok fogadasa.
 Back-End - Egy adott rendszer alsobb retege, aminek feladata a front-end reteg felol erkezo adatok feldolgozasa, valamint a keletkezett eredmenyek front-end szmara torteno visszajuttatasa.
 
+## Kovetelmenylista
+Jogosultsag - Bejelentkezesi felulet - Jelenlegi terv szerint csak Adminnak kell bejelentkeznie
+Jogosultsag - Jogosultsagi szintek - Admin: A rendszer egeszehez hozzafer, barmikor modosithat, hozza adhat vagy torolhet kiallitassal kapcsoaltos dolgokat.
+Felulet - A kiallitasok kepileges megjelenitese es leirasa
+Jogosultsag - Admin felulet - Csak az admin fiokkal rendelkezo szemelyek ferhetnek hozza
