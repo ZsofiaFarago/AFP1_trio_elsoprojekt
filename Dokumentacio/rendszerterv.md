@@ -61,3 +61,9 @@ Tervezett jövőbeni fejlesztések:
 Technológiai fejlesztések:
 - Szükség lesz az adatbázis-szolgáltatónál nagyobb tárhelyet igényelni az adatbázis számára
 - A további bővítéséhez célszerű valamilyen keretrendszer használatát bevezetni
+
+## A rendszer celja
+A rendszer celja, hogy a muzemban eppen aktulais kiallitasrol barki informaciot szerhezzsen barhol is van a vilagon internet hozzaferessel.
+A weboldal kinezete egy egyszerusitett, atgondolt es letisztult felulet lesz.
+A rendszer letisztultsaga miatt barki aki minimalisan ert az internethez el tud majd igazodni az oldalon, minden fele gondok nelkul.
+Mivel jelenleg csak weboldal keszul ezert sem androidos sem IOS es alkalmazas nem fog keszulni, de mivel celunk egy egyszeruen attekintheto oldal letrehozasa, ami minimalis eroforrasokat hasznal igy nincs is tervben kulon applkiacio letrehozasa.
