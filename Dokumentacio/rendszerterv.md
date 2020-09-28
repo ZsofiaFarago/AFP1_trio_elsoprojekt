@@ -108,3 +108,6 @@ A feladat célja, hogy a weblap könnyen kezelhető legyen a felhasználók és 
 
 Feladatuk az adatbázishoz való csatlakozás biztosítása, illetve a benne kezelt műveletek megírása többek között a keresőrendszer megírása ami a kategóriák által
 könnyíti meg az adatbázisban található kiállítási tárgyak kilistázását.Valamint gondoskodik az Adminisztrátorok segítség nélküli könnyű rendszer használatához.
+
+## Telepítési Terv
+A MySQL adatbázis létrehozásához egy külső adatbázis szolgáltató, a Heroku ingyenes szolgáltatását vesszük igénybe. Ez limitált számú kapcsolatot és csak 10 MB tárhelyet biztosít, de a múzeum méretének megfelelnek. Később, ha bővülnek a szolgáltatásaink, szükséges lesz befektetni nagyobb tárhelyért és korlátlan kapcsolatért egy másik csomagba.
