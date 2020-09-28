@@ -32,3 +32,10 @@ Jogosultsag - Bejelentkezesi felulet - Jelenlegi terv szerint csak Adminnak kell
 Jogosultsag - Jogosultsagi szintek - Admin: A rendszer egeszehez hozzafer, barmikor modosithat, hozza adhat vagy torolhet kiallitassal kapcsoaltos dolgokat.
 Felulet - A kiallitasok kepileges megjelenitese es leirasa
 Jogosultsag - Admin felulet - Csak az admin fiokkal rendelkezo szemelyek ferhetnek hozza
+
+## Jelenlegi Helyzet
+A Trio weboldalkészítő csoport megunta hogy annyi igénytelen és rossz minőségű weboldal készül a múzeumokhoz. 
+Így hát arra az elhatározásra jutottunk hogy változtatunk ezen a helyzeten.
+A csapat egy bár frissen alakult csapat viszont tettre készek vagyunk. 
+A Jelenlegi helyzetre hivatkozva 4-en a weboldal 1-1 részét építenénk meg amellyel a munka felosztására a kevesebb
+teher és több szabad idő és kevesebb stressz okozása a célunk.
