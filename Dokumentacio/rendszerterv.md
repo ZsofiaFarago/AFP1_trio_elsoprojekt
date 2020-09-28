@@ -95,3 +95,16 @@ Mivel jelenleg csak weboldal keszul ezert sem androidos sem IOS es alkalmazas ne
 A rendszer fejlesztese HTML/CSS valamint esetlegesen JavaScript segitesegevel tortenik
 A weboldal felepitese HTML, a stilusa CSS-sel fog megvalosulni.
 A weboldal hasznalatahoz eleg lesz egy egyszeru bongeszo.
+
+## Projekt terv
+A projektet weblapra fejlesztük front- és backend segítségével. A csoport egyhangú szavazás alapján Notepad++-ban fejleszti majd a Php,CSS és HtML részeket.
+Az elkülönített feladatokon más-más emberek dolgoznak és lehetőleg más más időpontokban.
+Frontend fejlesztése HTML/CSS segítségével, valamint bejelentkezéshez és a kereső rendszer működéséhez php használata adatbázis kezeléséhez.
+	Frontend felelősök:
+	
+A feladat célja, hogy a weblap könnyen kezelhető legyen a felhasználók és adminisztrátorok számára és egy olyan kinézetet biztosítsanak a weboldalnak . 
+	
+	Backend felelősök:
+
+Feladatuk az adatbázishoz való csatlakozás biztosítása, illetve a benne kezelt műveletek megírása többek között a keresőrendszer megírása ami a kategóriák által
+könnyíti meg az adatbázisban található kiállítási tárgyak kilistázását.Valamint gondoskodik az Adminisztrátorok segítség nélküli könnyű rendszer használatához.
