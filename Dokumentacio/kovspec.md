@@ -33,6 +33,12 @@ Jogosultsag - Jogosultsagi szintek - Admin: A rendszer egeszehez hozzafer, barmi
 Felulet - A kiallitasok kepileges megjelenitese es leirasa
 Jogosultsag - Admin felulet - Csak az admin fiokkal rendelkezo szemelyek ferhetnek hozza
 
+## Rendszerre vonatkozó szabványok, törvények, pályázatok
+A múzeum weboldala a jogszabályok szerint fog elkészülni, szerzői joga a készítőket illeti, állami pályázatokra nem jogosult, a weboldal a természetes szabvány szerint íródik, HTML, PHP kódban, fotók számára PNG-t használ, stíluslapja CSS.
+
+## Rendszerre vonatkozó szabályok
+A weboldalt a jelenlegi helyzet szerint, minden tag a saját projektrészét köteles elkészíteni, figyelembe véve a projektben dolgozó társai munkáját, a követelménylista és az egyéb pontok szerint hiánytalanul, hogy az igénylő tökéletes terméket kaphasson.
+
 ## Jelenlegi Helyzet
 A Trio weboldalkészítő csoport megunta hogy annyi igénytelen és rossz minőségű weboldal készül a múzeumokhoz. 
 Így hát arra az elhatározásra jutottunk hogy változtatunk ezen a helyzeten.
