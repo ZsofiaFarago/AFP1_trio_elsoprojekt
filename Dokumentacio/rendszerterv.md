@@ -1,5 +1,18 @@
 # Rendszerterv
 
+## Üzleti folyamatok modellje
+A gyakorlati tapasztalat azt mutatja, hogy ha a kiállításról, annak minden egyes darabjáról bárki számára elérhető információkat biztosítunk, akkor az nem veszi el az emberek kedvét a múzeumlátogatástól, hanem éppen ellenkezőleg, ösztönzi őket, hogy személyesen megnézzék. Reklámmentes weboldalt biztosítunk a látogatók számára. Célunk a tájékoztatás, információk átadása. Ezzel csináljuk a legjobb reklámot a saját intézmnyünknek, a célunk a jegyeladásból származó bevétel növelése elsősorban. Mindezt egy felhasználóbarát, áttekinthető és reszponzív, mai igényeknek megfelelő külsővel rendelkező weboldallal érjük el.  
+**Üzleti szereplők:**
+- Múzeumi dolgozók: recepciós, kiállításszervező, ajándékbolt üzletvezetője
+- Felhasználók
+- Látogatók
+- Adminok
+**Üzleti folyamatok:**
+- A látogatók elérhetik az összes menüpontot és az összes információhoz hozzáférnek, de nem tudják igénybe venni azokat a funkciókat, mint a regisztrált felhasználók.
+- A regisztrált felhasználók szintén elérik az összes menüpontot, de tudnak online jegyet vásárolni, ajándéktárgyat rendelni, vendégkönyvbe írni, kiállítási tárgyakat értékelni is.
+- Az adminok képesek a vendégkönyvből bejegyzéseket törölni, felhasználókat letiltani vagy adminná nyilvánítani.
+- Múzeumi dolgozók: egyelőre ők is adminok (eleve ők azok), esetleg a jövőben, ha szükségessé válik, külön szerepkörré válnak.
+
 ## Adatbázisterv
 
 A múzeum honlapján a kiállítás darabjairól megjelenő adatok az adatbázisban szerepelnek. Az adatbázis neve: museum. 4 db kategóriába csoportosíthatók a kiállított tárgyak: festmények, szobrok, fosszíliák, tárgyi leletek. Ezekhez tartozik egy-egy tábla a saját adataikkal, és van egy generalData nevű tábla, mely minden más táblával egy az egyhez kapcsolatban áll. A másik 4 táblában minden rekordhoz tartozik egy leírás és egy kép, és hogy a mezők ismétlődését elkerüljük, ez a két adat külön táblába került. A táblák a generalDataId nevű mezőjükben tárolják az idegenkulcsot ehhez a táblához. Továbbá mindegyik tábla rendelkezik egy int típusú id mezővel, mely auto incrementre van állítva, új rekord felvétele esetén automatikus kap id-t.  A táblákat, kapcsolataikat és a mezők típusait a mellékelt ábra mutatja: 
