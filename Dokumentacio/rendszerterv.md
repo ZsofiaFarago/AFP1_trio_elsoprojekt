@@ -14,6 +14,32 @@ A gyakorlati tapasztalat azt mutatja, hogy ha a kiállításról, annak minden e
 - Múzeumi dolgozók: egyelőre ők is adminok (eleve ők azok), esetleg a jövőben, ha szükségessé válik, külön szerepkörré válnak.  
 Megjegyzés: a weboldal első, induló változata szerepköröket és ezekhez kapcsolódó funkciókat még nem fog tartalmazni a rövid fejlesztési idő miatt, a karbantartási tervben részletezve van, mivel lehet a jövőben kiegészíteni a készülő weboldalt.
 
+## Funkcionális terv
+Rendszerszereplők: -Látogatók
+-Regisztrált felhasználók
+-Adminok
+Rendszerhasználati esetek és lefutásaik:
+ADMIN: Teljes hozzáférés a rendszerhez, vendégkönyvből bejegyzéseket tudnak törölni, felhasználókat letiltani, vagy adminná tenni
+LÁTOGATÓK: Elérik a weboldal összes menüpontját, de a múzeum weben keresztül elérhető funkcióihoz nem férnek hozzá.
+FELHASZNÁLÓK: Regisztráció után elérik a weboldal szolgáltatásait.
+Weboldal szolgáltatásai: Online jegy vásárlás, ajándéktárgy rendelés, vendégkönyv használat, tárgy értékelés.
+--
+Menü hierarchia: Bejelentkezés: -Regisztráció, Bejelentkezés, Kijelentkezés
+Main: Ajándéktárgyak, Kategóriák, Rendelés, Vendégkönyv, Értékelés, Elérhetőségek
+
+## Implementációs terv
+Web: A webes felület HTML, PHP, CSS nyelven készül.
+Minél átláthatóbban, elkülönítettebben fogunk dolgozni, a projekt átláthatósága miatt. Adatbázishoz SQL rendszert használunk az adatbázisterv pont szerint.
+
+## Tesztterv
+A tesztelések célja a rendszer és összetevői működőképességének vizsgálata, és leellenőrzése.
+TESZTELÉSI ELJÁRÁSOK:
+Unit teszt: Már a kódolási szakasz alatt a szintaktikai/szemantikai hibák kiaknázása, a kód metódusai akkor vannak kész, ha az ezekre készített Unit tesztekre hibamentesen lefutnak.
+Alfa teszt: A kész projekt tesztelése minden elérhető felületen, platformon, azok verziószámain, hibákat keresve, szélsőséges eseteket szimulálva, az esetleges hibák megtalálása érdekében. A tesztet a fejlesztők végzik, ideálisan mindenki a saját beosztott projektrészének megfelelően.
+Beta teszt: A weboldal kiadása után publikált állapotában már nem a fejlesztők végzik, a kiadott platformok összes verzióján hibamentesen kell működnie a terméknek ennek a tesztelési fázis befejeztével.
+A tesztelők visszajelzéseket küldhetnek a fejlesztőknek, ezzel kisegítve őket.
+Minden backend szolgáltatásnak, bejelentkezési, rendelési, értékelési felületnek hibamentesen kell működnie minden platformon. Esetleges hibák során a felhasználót lekezelt kivételekkel kell tájékoztatni.
+
 ## Adatbázisterv
 
 A múzeum honlapján a kiállítás darabjairól megjelenő adatok az adatbázisban szerepelnek. Az adatbázis neve: museum. 4 db kategóriába csoportosíthatók a kiállított tárgyak: festmények, szobrok, fosszíliák, tárgyi leletek. Ezekhez tartozik egy-egy tábla a saját adataikkal, és van egy generalData nevű tábla, mely minden más táblával egy az egyhez kapcsolatban áll. A másik 4 táblában minden rekordhoz tartozik egy leírás és egy kép, és hogy a mezők ismétlődését elkerüljük, ez a két adat külön táblába került. A táblák a generalDataId nevű mezőjükben tárolják az idegenkulcsot ehhez a táblához. Továbbá mindegyik tábla rendelkezik egy int típusú id mezővel, amely auto incrementre van állítva, új rekord felvétele esetén automatikus kap id-t.  A táblákat, kapcsolataikat és a mezők típusait a mellékelt ábra mutatja: 
