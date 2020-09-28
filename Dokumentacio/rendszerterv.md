@@ -6,16 +6,17 @@ A gyakorlati tapasztalat azt mutatja, hogy ha a kiállításról, annak minden e
 - Múzeumi dolgozók: recepciós, kiállításszervező, ajándékbolt üzletvezetője
 - Felhasználók
 - Látogatók
-- Adminok
+- Adminok  
 **Üzleti folyamatok:**
 - A látogatók elérhetik az összes menüpontot és az összes információhoz hozzáférnek, de nem tudják igénybe venni azokat a funkciókat, mint a regisztrált felhasználók.
 - A regisztrált felhasználók szintén elérik az összes menüpontot, de tudnak online jegyet vásárolni, ajándéktárgyat rendelni, vendégkönyvbe írni, kiállítási tárgyakat értékelni is.
 - Az adminok képesek a vendégkönyvből bejegyzéseket törölni, felhasználókat letiltani vagy adminná nyilvánítani.
-- Múzeumi dolgozók: egyelőre ők is adminok (eleve ők azok), esetleg a jövőben, ha szükségessé válik, külön szerepkörré válnak.
+- Múzeumi dolgozók: egyelőre ők is adminok (eleve ők azok), esetleg a jövőben, ha szükségessé válik, külön szerepkörré válnak.  
+Megjegyzés: a weboldal első, induló változata szerepköröket és ezekhez kapcsolódó funkciókat még nem fog tartalmazni a rövid fejlesztési idő miatt, a karbantartási tervben részletezve van, mivel lehet a jövőben kiegészíteni a készülő weboldalt.
 
 ## Adatbázisterv
 
-A múzeum honlapján a kiállítás darabjairól megjelenő adatok az adatbázisban szerepelnek. Az adatbázis neve: museum. 4 db kategóriába csoportosíthatók a kiállított tárgyak: festmények, szobrok, fosszíliák, tárgyi leletek. Ezekhez tartozik egy-egy tábla a saját adataikkal, és van egy generalData nevű tábla, mely minden más táblával egy az egyhez kapcsolatban áll. A másik 4 táblában minden rekordhoz tartozik egy leírás és egy kép, és hogy a mezők ismétlődését elkerüljük, ez a két adat külön táblába került. A táblák a generalDataId nevű mezőjükben tárolják az idegenkulcsot ehhez a táblához. Továbbá mindegyik tábla rendelkezik egy int típusú id mezővel, mely auto incrementre van állítva, új rekord felvétele esetén automatikus kap id-t.  A táblákat, kapcsolataikat és a mezők típusait a mellékelt ábra mutatja: 
+A múzeum honlapján a kiállítás darabjairól megjelenő adatok az adatbázisban szerepelnek. Az adatbázis neve: museum. 4 db kategóriába csoportosíthatók a kiállított tárgyak: festmények, szobrok, fosszíliák, tárgyi leletek. Ezekhez tartozik egy-egy tábla a saját adataikkal, és van egy generalData nevű tábla, mely minden más táblával egy az egyhez kapcsolatban áll. A másik 4 táblában minden rekordhoz tartozik egy leírás és egy kép, és hogy a mezők ismétlődését elkerüljük, ez a két adat külön táblába került. A táblák a generalDataId nevű mezőjükben tárolják az idegenkulcsot ehhez a táblához. Továbbá mindegyik tábla rendelkezik egy int típusú id mezővel, amely auto incrementre van állítva, új rekord felvétele esetén automatikus kap id-t.  A táblákat, kapcsolataikat és a mezők típusait a mellékelt ábra mutatja: 
 ![Adatbázis EER diagram](Abrak/database.png)
 
 ### Táblák:
@@ -39,7 +40,7 @@ A múzeum honlapján a kiállítás darabjairól megjelenő adatok az adatbázis
 - id
 - title: a szobor címe
 - sculptor: a szobrász neve
-- completedTime: a szobor elkészítésének ideje, varchar tpusú, mert lehet olyan festmény, amelyiknél nem tudjuk pontosan, csak a korszakot ismerjük
+- completedTime: a szobor elkészítésének ideje, varchar tpusú, mert lehet olyan szobor, amelyiknél nem tudjuk pontosan, csak a korszakot ismerjük
 - material: a szobor anyaga (bronz, márvány, fa stb.)
 - weight: a szobor súlya kg-ban
 - generalDataId
@@ -56,6 +57,7 @@ A múzeum honlapján a kiállítás darabjairól megjelenő adatok az adatbázis
 - id
 - name: a tárgyi lelet megnevezése
 - function: a tárgy funkciója (pl. fegyver, munkaeszköz stb.)
+- relatedPerson: ha van ilyen, akkor olyan személy akié volt a tárgy
 - material: a tárgy anyaga (pl. fa, vas, kő stb.)
 - originTime: melyik korból származik
 - originPlace: származási helye
@@ -63,15 +65,15 @@ A múzeum honlapján a kiállítás darabjairól megjelenő adatok az adatbázis
 
 ## Karbantartási terv
 A projektre kiadott fejlesztési idő rövidsége miatt a rendszertervben kitűzött cél egy felhasználói szerepkör nélküli weboldal elkészítése volt, amely minden kiállítási tárgyat megtalálhatóvá tesz rendezett menü segítségével, illetve az elérhetőségekről és a legfontosabb adatokról tájékoztat. A jövőben a honlapnak számos funkcióval kell kiegészülnie, de elsősorban szerepkörökkel. Értelemszerűen ebből kettőre lesz szükség: adminra és felhasználóra. Az adatbázisban szerepelni fog egy előre létrehozott admin, később ez tud több admint felvenni, felhasználók admin státuszúra változtatásával. Az adminok lesznek képesek felhasználókat letiltani és bejegyzéseiket törölni a vendégkönyvől szükség esetén.  
-A jövőben kötelezően megvalósítandó funkciók:  
+**A jövőben kötelezően megvalósítandó funkciók:**
 - A látogatók regisztrációval felhasználói fiókot hozhatnak létre user szerepkörrel
 - A regisztrált felhasználók online vásárolhatnak belépőjegyet, kedvezményeket vehetnek igénybe
 - A regisztrált felhasználók rendelhetnek az ajándékboltból online
 - Online vendégkönyv a regisztrált felhasználók részére, melyet az adminok moderálnak
 - A kiállítási tárgyakat értékelhetik a felhasználók 1-5 csillaggal tetszésük szerint, minden kategóriából a legnépszerűbb darab megjelenik a főoldalon  
-Tervezett jövőbeni fejlesztések:
-- Android mobilalkalmazás fejlesztése online jegyvásárlás és ajándéktárgyak rendelése céljából
-Technológiai fejlesztések:
+**Tervezett jövőbeni fejlesztések:**
+- Android mobilalkalmazás fejlesztése online jegyvásárlás és ajándéktárgyak rendelése céljából  
+**Technológiai fejlesztések:**
 - Szükség lesz az adatbázis-szolgáltatónál nagyobb tárhelyet igényelni az adatbázis számára
 - A további bővítéséhez célszerű valamilyen keretrendszer használatát bevezetni
 
