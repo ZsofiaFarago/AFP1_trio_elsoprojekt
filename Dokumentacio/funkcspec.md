@@ -1,5 +1,21 @@
 # Funkcionális specifikáció
 
+## 1. Áttekintés
+Egy múzeum felhasználói szemszögből való áttekintéséhez szükséges weboldalt fogunk készíteni. Célunk, hogy az érdeklődők látogatás nélkül is rálátást kapjanak az intézményről, illetve az ott található tárgyakról.
+A tárgyakhoz adottak lesznek különböző adatok, pl származási  helyek, beszerzés ideje, érték.
+Lehetőség lesz kilistázással megtekinteni az ott látható tárgyakat képeken, termenként csoportosítva. A felhasználók lapozással fognak tudni keresni a tárgyak közt. A weboldal tartalmazni fog egy térképet az intézmény belsejéről, hogy az oda látogatók el tudjanak igazodni a látogatás során. Ez a térkép igény esetén nyomtatható lesz. A felület biztosítani fogja a felhasználók számára a múzeum elérhetőségeit, legyen az földrajzi hely, vagy telefonos, e-mailes elérhetőségek. Számítógépről, és telefonról is optimalizált felület lesz, mindenhonnan látogatható lesz a webhely, és mindenki számára elérhető lesz.
+
+## 2. Jelenlegi helyzet
+A múzeum szeretne egy weboldalt társítani az intézményéhez, hogy az oda látogatók elutazás nélkül is rálátást kapjanak a bent található dolgokra. Olyan weboldalt kért, amiben láthatóak az általuk kiállított darabok és alapvető részletek hozzájuk, valamint kérte, hogy térképet és elérhetőséget is biztosítsunk hozzá. A weboldal segíti azokat, akik távol laknak az intézménytől, és szeretnének meggyőződni arról, hogy valóban érdekli-e őket a múzeum témája, odalátogatás nélkül. A felületnek elérhetőnek kell lenni minden napi szinten használt eszközről, pl. Android/iOS rendszerek, Windows rendszer. Fontosnak tartják, hogy a mai világban, ha elérhetőek az információs rendszerek, minél több felületről elérhetőek legyenek, valamint amint lehetőség engedi tájékozódást kapjanak a hely részleteiről. Megkaptuk tehát a feladatot, hogy létrehozzunk egy ilyen felületet.
+
+## 3. Követelménylista
+F1 – Fő lista – 1.0 – Kilistázza a múzeumban található tárgyakat
+F2 – Csoportosítás – 1.0 – Csoportosítható tárgyak termek/múzeumrészek szerint
+F3 – Részletezés – 1.0 – Tárgyak tulajdonságainak részletezése (pl. érték/beszerzési év/típus
+T1 – Térkép – 1.0 – Térkép a múzeum belső részéhez, hogy segítse az eligazodásban az ide látogatókat
+E1 – Elérhetőségek – 1.0 – Tartalmazza a múzeum földrajzi helyét, különböző elérhetőségeit
+
+
 ## 4. Vágyálomrendszer
 
 A készülő weboldal célja, hogy az alapvető információkon kívül (nyitvatartás, elérhetőségek, megközelítés, jegyárak, kedvezmények, nyitva tartás, általános információk stb.) betekintést engedjen a múzeum híres és változatos gyűjteményébe, nagyobb kedvet csináljon ezáltal az embereknek a személyes látogatásra. Ma az efféle információk átadása prospektusok helyett egyre inkább az interneten történik, ezért fontos, hogy az adott múzeumnak legyen egy információgazdag, felhasználóbarát, reszponzív weboldala. A hagyományos, kézzel fogható vendégkönyv helyett a múzeum itt biztosítja ugyanezt a lehetőséget a felhasználók számára. Továbbá 1-től 5-ig terjedő skálán pontozhatják a kiállítás darabjait, mely alapján más látogatók megtudhatják, melyek a legkedveltebb látványosságok. A főoldalon egy rövid bemutatkozó szöveg lesz látható, az alapvető információk, funkciók és a kategóriák a menüből lesznek elérhetők.
