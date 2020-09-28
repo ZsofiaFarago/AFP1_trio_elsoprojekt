@@ -39,3 +39,11 @@ A Trio weboldalkészítő csoport megunta hogy annyi igénytelen és rossz minő
 A csapat egy bár frissen alakult csapat viszont tettre készek vagyunk. 
 A Jelenlegi helyzetre hivatkozva 4-en a weboldal 1-1 részét építenénk meg amellyel a munka felosztására a kevesebb
 teher és több szabad idő és kevesebb stressz okozása a célunk.
+
+## Vágyálom rendszer
+A weboldal célja egy könnyen átlátható de szép és igényesen kialakított rendes frontenddel és backenddel valamint
+egy az adminok vagy rendszerkarbantartók részére elkészített adatbázissal (My sql) el rendelkezik.
+Az oldal futási időben képes a múzeum kiállítási tárgyait kategóriákba sorolni amellyel leegyszerűsíti 
+a kívánt tárgy megkeresési idejét. Az egyes tárgyakról részletes leírás is található többek között az is hogy 
+a múzeumon belül melyik teremben található az adott tárgy. Az oldal alján pedig a múzeum elérhetőségeit nyitvatartási
+idejét lehet majd megtalálni.
