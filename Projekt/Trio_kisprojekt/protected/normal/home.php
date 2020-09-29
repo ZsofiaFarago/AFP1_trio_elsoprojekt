@@ -1,0 +1,1 @@
+<p style="text-align: center">Üdvözlünk a Múzeum weboldalán!</p>
