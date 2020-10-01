@@ -50,6 +50,17 @@ CREATE TABLE artifacts(
 	CONSTRAINT pk_artifacts PRIMARY KEY (id),
 	CONSTRAINT fk_artifactsGeneralData FOREIGN KEY (generalDataId) REFERENCES generalData (id));
 
+CREATE TABLE admin (
+	id INT NOT NULL AUTO_INCREMENT,
+	username VARCHAR(50) NOT NULL,
+	name VARCHAR(100) NOT NULL,
+	password VARCHAR(50) NOT NULL,
+	email VARCHAR(100) NOT NULL,
+	loggedIn TINYINT NOT NULL DEFAULT 0,
+	CONSTRAINT pk_admin PRIMARY KEY (id));
+
+insert into admin(username, name, password, email) values("Zsofia95", "Faragó Zsófia", "password", "farago.zsofia.1995@gmail.com");
+
 insert into generalData(description, imageUrl) values("Úgy tartják, a festményen Giovanni di Nicolao Arnolfini itáliai kereskedő és felesége van megörökítve brugge-i otthonukban. A képet a nyugati festőművészet egyik legteljesebb és legeredetibb művének tartják. A képet 1842-ben a londoni National Gallery vásárolta meg. A festmény ábrázolása a maga korában figyelemre méltó volt, a részletek kidolgozottsága okán is, de főleg a belső teret kitöltő fény tökéletes használatával.", "arnolfini.jpg");
 insert into generalData(description, imageUrl) values("Egy éjszakai tájkép csillagos égbolttal, ciprusfával, egy falu látképével, a háttérben hegyekkel. A valós és fantasztikus elemeket is magában foglaló, sokat vitatott szimbolikájú kép Vincent van Gogh legismertebb művei közé tartozik.", "csillagos_ej.jpg");
 insert into generalData(description, imageUrl) values("Rembrandt azt a megtisztelő megbízást kapta, hogy fessen egy nagy, csoportos portrét egy polgárőrcsapatról. A képet ma Éjjeli őrjáratként ismerik, de eredeti címe: Frans Banning Cocq kapitány polgárőrcsapata.", "ejjeli_orjarat.jpg");
