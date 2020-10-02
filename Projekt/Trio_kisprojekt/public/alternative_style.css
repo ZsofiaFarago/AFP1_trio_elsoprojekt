@@ -1,0 +1,46 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	color: white;
+}
+
+body { background-color: #303030; }
+
+/* Fejléc */
+header {
+	text-align: center;
+	height: 150px;
+	background-image: url('Images/header_bg.jpg');
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+}
+	
+header h1 {
+	font-size: 80px;
+	padding: 10px 0px 0px 0px;
+	color: #78150e;
+	text-shadow: 2px 2px 4px white;
+}
+
+#defaultStyle, #alternativeStyle {
+	border: none;
+	background: #404040;
+	color: #ffffff;
+	font-weight: 100;
+	padding: 10px;
+	text-transform: uppercase;
+	border-radius: 6px;
+	display: inline-block;
+	transition: all 0.3s ease 0s;
+}
+
+#defaultStyle:hover, #alternativeStyle:hover {
+	color: #78150e;
+	text-shadow: 2px 2px 4px #404040;
+	font-weight: 700;
+	letter-spacing: 3px;
+	background: rgba(255, 255, 255, 0.4);
+	-webkit-box-shadow: 0px 5px 20px -5px rgba(0,0,0,0.8);
+	-moz-box-shadow: 0px 5px 20px -5px rgba(0,0,0,0.8);
+	transition: all 0.3s ease 0s;
+}

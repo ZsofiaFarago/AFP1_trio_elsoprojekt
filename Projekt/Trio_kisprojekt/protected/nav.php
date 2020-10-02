@@ -1,10 +1,10 @@
-<hr>
-
 <center>
 <p>
 <a href="index.php" class="menu">Kezdőoldal</a>
 <span class="menu"> &nbsp; | &nbsp; </span>
-<a href="index.php?P=list" class="menu">Böngészés</a>
+<a href="index.php?P=list" class="menu">Kategóriák</a>
+<span class="menu"> &nbsp; | &nbsp; </span>
+<a href="informacio.php" class="menu">Információk</a>
 </p>
 </center>
 <?php if(!IsUserLoggedIn()) : ?>
@@ -19,5 +19,3 @@
   <?php endif; ?>
 
 <?php endif; ?>
-
-<hr>
