@@ -6,6 +6,8 @@ switch ($_GET['P']) {
 	case 'home': require_once PROTECTED_DIR.'normal/home.php'; break;
 
 	case 'list': require_once PROTECTED_DIR.'items/list.php'; break;
+	
+	case 'info': require_once PROTECTED_DIR.'informacio.php'; break;
 
 	case 'login': !IsUserLoggedIn() ? require_once PROTECTED_DIR.'user/login.php' : header('Location: index.php'); break;
 

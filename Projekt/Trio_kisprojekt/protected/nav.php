@@ -4,7 +4,7 @@
 <span class="menu"> &nbsp; | &nbsp; </span>
 <a href="index.php?P=list" class="menu">Kategóriák</a>
 <span class="menu"> &nbsp; | &nbsp; </span>
-<a href="informacio.php" class="menu">Információk</a>
+<a href="index.php?P=info" class="menu">Információk</a>
 </p>
 </center>
 <?php if(!IsUserLoggedIn()) : ?>
