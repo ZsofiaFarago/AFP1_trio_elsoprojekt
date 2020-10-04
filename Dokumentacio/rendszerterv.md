@@ -137,3 +137,6 @@ könnyíti meg az adatbázisban található kiállítási tárgyak kilistázás�
 
 ## Telepítési Terv
 A MySQL adatbázis létrehozásához egy külső adatbázis szolgáltató, a Heroku ingyenes szolgáltatását vesszük igénybe. Ez limitált számú kapcsolatot és csak 10 MB tárhelyet biztosít, de a múzeum méretének megfelelnek. Később, ha bővülnek a szolgáltatásaink, szükséges lesz befektetni nagyobb tárhelyért és korlátlan kapcsolatért egy másik csomagba.
+
+## Architektúrális terv
+A rendszerhez szükség van egy adatbázis szerverre, ebben az esetben MySql-t használunk. A kliens oldali programokat egy php alapú REST api szolgálja ki, ez csatlakozik az adatbázis szerverhez. A kliensekkel JSON objektumokkal kommunikál.
