@@ -3,3 +3,45 @@ header #changeStyle {
 	position: absolute;
 	top: 0;
 	right: 0; }
+	
+	button
+{
+	height:200px;
+	width:200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#baloldali
+{
+	
+	background-image: url("https://i.pinimg.com/originals/74/1e/ff/741effc4295b13fe8628592499165ca2.jpg");
+}
+#ereklye
+{
+	background-image: url("https://lh3.googleusercontent.com/proxy/nM-WlzlqgqO21oG1uUExpOKwUFHeg3RoF8zsNIoCBgIPgzl6X1VhrH2xyfjlEYDJvG3ytFyp_iaA");
+}
+#fossil
+{
+	background-image: url("https://image.shutterstock.com/image-vector/dinosaur-fossils-eggs-bones-skeletons-600w-760637152.jpg");
+}
+#kepek
+{
+	background-image: url("https://static.posters.cz/image/1300/mona-lisa-la-gioconda-i19784.jpg");
+}
+table
+{
+	border-style:solid;
+	border-color:red;
+	border-width:5px;
+	margin-left: auto;
+    margin-right: auto;
+	width:750px;
+	height:500px;
+	text-align: center;
+}
+.center
+{
+	 text-align:center;
+	 display:block;
+	margin: 0 auto;
+}
