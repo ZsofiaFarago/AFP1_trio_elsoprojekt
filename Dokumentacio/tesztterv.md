@@ -1,4 +1,4 @@
-# Teszt
+# Tesztterv
 |Sorszám|Funkció|Tesztelés módja, leírása|Eredmény|
 |-------|-------|------------------------|--------|
 |1.|Adatok felvitele az adatbázisba|Tesztadatok felvitele insert into utastásokkal a painting, fossils, statues, artifacts és generalData táblákba|Sikeres adatbázisműveletek|

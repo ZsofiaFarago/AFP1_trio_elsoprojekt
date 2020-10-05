@@ -15,16 +15,14 @@ A gyakorlati tapasztalat azt mutatja, hogy ha a kiállításról, annak minden e
 Megjegyzés: a weboldal első, induló változata szerepköröket és ezekhez kapcsolódó funkciókat még nem fog tartalmazni a rövid fejlesztési idő miatt, a karbantartási tervben részletezve van, mivel lehet a jövőben kiegészíteni a készülő weboldalt.
 
 ## Funkcionális terv
-Rendszerszereplők: -Látogatók
--Regisztrált felhasználók
--Adminok
-Rendszerhasználati esetek és lefutásaik:
-ADMIN: Teljes hozzáférés a rendszerhez, vendégkönyvből bejegyzéseket tudnak törölni, felhasználókat letiltani, vagy adminná tenni
-LÁTOGATÓK: Elérik a weboldal összes menüpontját, de a múzeum weben keresztül elérhető funkcióihoz nem férnek hozzá.
-FELHASZNÁLÓK: Regisztráció után elérik a weboldal szolgáltatásait.
-Weboldal szolgáltatásai: Online jegy vásárlás, ajándéktárgy rendelés, vendégkönyv használat, tárgy értékelés.
---
-Menü hierarchia: Bejelentkezés: -Regisztráció, Bejelentkezés, Kijelentkezés
+Rendszerszereplők: Látogatók, Regisztrált felhasználók, Adminok  
+Rendszerhasználati esetek és lefutásaik:  
+ADMIN: Teljes hozzáférés a rendszerhez, vendégkönyvből bejegyzéseket tudnak törölni, felhasználókat letiltani, vagy adminná tenni  
+LÁTOGATÓK: Elérik a weboldal összes menüpontját, de a múzeum weben keresztül elérhető funkcióihoz nem férnek hozzá.  
+FELHASZNÁLÓK: Regisztráció után elérik a weboldal szolgáltatásait.  
+Weboldal szolgáltatásai: Online jegy vásárlás, ajándéktárgy rendelés, vendégkönyv használat, tárgy értékelés.  
+Menü hierarchia:  
+Bejelentkezés: Regisztráció, Bejelentkezés, Kijelentkezés  
 Main: Ajándéktárgyak, Kategóriák, Rendelés, Vendégkönyv, Értékelés, Elérhetőségek
 
 ## Implementációs terv
